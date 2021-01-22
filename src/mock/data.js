@@ -10,16 +10,16 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Derek Black',
   subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'DerekBlack1.jpg',
+  paragraphOne: `Hi I'm Derek Black. I'm an exceptionally creative and dependable entry level web developer. I have a stellar customer service record and a superb work ethic. `,
+  paragraphTwo: `My objective is to be able to work for an encouraging and stable company that will assist me in developing , improving, and obtaining the necessary skills in order to become the best developer possible.`,
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'giphyAPI.PNG',
     title: '',
     info: '',
     info2: '',
@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'PokemonAPI2.PNG',
+    title: 'Scary Pokemon Story API',
+    info: 'This was my very first API project, I pull Pokemon data from the PokeAPI and displayit along side some of the series most loved and feared Pokemon',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://derekblack94.github.io/pokemonAPI/',
+    repo: 'https://github.com/DerekBlack94/pokemonAPI', // if no repo, the button will not show up
   },
 ];
 
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
