@@ -29,11 +29,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'giphyAPI.PNG',
-    title: '',
-    info: '',
+    title: 'Giphy Search API',
+    info: 'This Search App takes a searched term and uses the GiphyAPI to bring back a GIF and display it.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://db-gif-api.web.app/',
+    repo: 'https://github.com/DerekBlack94/GifyAPI', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
