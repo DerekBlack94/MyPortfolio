@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import Resume from '../resume/resume.pdf'
 
 // HEAD DATA
 export const headData = {
@@ -21,7 +22,7 @@ export const aboutData = {
   paragraphOne: `Hi I'm Derek Black. I'm an exceptionally creative and dependable entry level web developer. I have a stellar customer service record and a superb work ethic. `,
   paragraphTwo: `My objective is to be able to work for an encouraging and stable company that will assist me in developing , improving, and obtaining the necessary skills in order to become the best developer possible.`,
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: Resume, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,25 +32,25 @@ export const projectsData = [
     img: 'giphyAPI.PNG',
     title: 'Giphy Search API',
     info: 'This Search App takes a searched term and uses the GiphyAPI to bring back a GIF and display it.',
-    info2: '',
+    info2: ' Made with Giphy API, HTML, CSS, JavaScript',
     url: 'https://db-gif-api.web.app/',
     repo: 'https://github.com/DerekBlack94/GifyAPI', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'FBC-thumbnail.PNG',
+    title: 'Family Bike Chain Repair App',
+    info: 'I developed this app for a local bicyel shop to keep track of tasks, repairs and customers bikes.',
+    info2: 'This application uses JavaScript, React, REST-API and SQL server. The database is deployed to Heroku while the Client is deployed to Netlify',
+    url: 'https://quirky-hoover-de0d50.netlify.app',
+    repo: 'https://github.com/DerekBlack94/FBC-Task-App', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'PokemonAPI2.PNG',
     title: 'Scary Pokemon Story API',
     info: 'This was my very first API project, I pull Pokemon data from the PokeAPI and displayit along side some of the series most loved and feared Pokemon',
-    info2: '',
+    info2: 'Utilizes HTML, CSS and JavaScript',
     url: 'https://derekblack94.github.io/pokemonAPI/',
     repo: 'https://github.com/DerekBlack94/pokemonAPI', // if no repo, the button will not show up
   },
@@ -58,32 +59,23 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email',
+  email: 'derekblack94@yahoo.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/derek-black-7478791ba',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/DerekBlack94',
     },
   ],
 };
