@@ -29,12 +29,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'giphyAPI.PNG',
-    title: 'Giphy Search API',
-    info: 'This Search App takes a searched term and uses the GiphyAPI to bring back a GIF and display it.',
-    info2: ' Made with Giphy API, HTML, CSS, JavaScript',
-    url: 'https://db-gif-api.web.app/',
-    repo: 'https://github.com/DerekBlack94/GifyAPI', // if no repo, the button will not show up
+    img: 'javascript.jpg',
+    title: 'Web Scraping Bike-Bot',
+    info: 'I created a web scraping program to find every in stock bike from a distributor and send a text message to the user of all available bikes.',
+    info2: 'Program was created with Node.js, Puppeteer and Vontage.**Source code is only example github repository to keep client privacy**',
+    url: 'https://github.com/DerekBlack94/bike-bot-example',
+    repo: 'https://github.com/DerekBlack94/bike-bot-example', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -44,6 +44,15 @@ export const projectsData = [
     info2: 'This application uses JavaScript, React, REST-API and SQL server. The database is deployed to Heroku while the Client is deployed to Netlify',
     url: 'https://quirky-hoover-de0d50.netlify.app',
     repo: 'https://github.com/DerekBlack94/FBC-Task-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'giphyAPI.PNG',
+    title: 'Giphy Search API',
+    info: 'This Search App takes a searched term and uses the GiphyAPI to bring back a GIF and display it.',
+    info2: ' Made with Giphy API, HTML, CSS, JavaScript',
+    url: 'https://db-gif-api.web.app/',
+    repo: 'https://github.com/DerekBlack94/GifyAPI', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
