@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
-import Resume from '../resume/resume.pdf'
+import Resume from '../resume/resume2021.pdf'
+import CoverLetter from '../resume/CoverLetter2021.pdf'
 
 // HEAD DATA
 export const headData = {
@@ -23,6 +24,7 @@ export const aboutData = {
   paragraphTwo: `My objective is to be able to work for an encouraging and stable company that will assist me in developing , improving, and obtaining the necessary skills in order to become the best developer possible.`,
   paragraphThree: '',
   resume: Resume, // if no resume, the button will not show up
+  coverLetter : CoverLetter
 };
 
 // PROJECTS DATA
