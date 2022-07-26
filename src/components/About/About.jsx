@@ -61,7 +61,7 @@ const About = () => {
                   </span>
                 )}
                 <p>
-                {coverLetter && (
+                {/* {coverLetter && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -72,7 +72,7 @@ const About = () => {
                       Cover Letter
                     </a>
                   </span>
-                )}
+                )} */}
                 </p>
               </div>
             </Fade>
